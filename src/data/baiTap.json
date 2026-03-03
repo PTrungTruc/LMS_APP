@@ -1,0 +1,20 @@
+[
+  {
+    "maHV": "HV01",
+    "maLop": "TOPIK-II",
+    "tenBai": "an",
+    "diem": 8,
+    "nhanXet": "hello",
+    "ngay": "2026-02-12",
+    "id": 1
+  },
+  {
+    "maHV": "HV7337",
+    "maLop": "TOPIK-II",
+    "tenBai": "an",
+    "diem": 0.6,
+    "nhanXet": "",
+    "ngay": "2026-02-12",
+    "id": 2
+  }
+]

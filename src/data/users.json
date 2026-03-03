@@ -1,0 +1,32 @@
+[
+  {
+    "email": "admin@topik.com",
+    "password": "123",
+    "role": "ADMIN",
+    "name": "Admin Tổng",
+    "id": 1,
+    "maGV": "",
+    "maHV": "",
+    "maLop": ""
+  },
+  {
+    "email": "gv@topik.com",
+    "password": "123",
+    "role": "GV",
+    "maGV": "GV01",
+    "name": "Cô giáo Kim",
+    "id": 2,
+    "maHV": "",
+    "maLop": ""
+  },
+  {
+    "email": "hv@topik.com",
+    "password": "123",
+    "role": "HV",
+    "maHV": "HV01",
+    "name": "Park Hang Seo",
+    "maLop": "TOPIK-II",
+    "id": 3,
+    "maGV": ""
+  }
+]

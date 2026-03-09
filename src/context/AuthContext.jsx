@@ -67,19 +67,6 @@ export const AuthProvider = ({ children }) => {
         })
       });
 
-      // const loginResponse = await fetch(`${API_URL}/api/auth/callback/credentials`, {
-      //   method: "POST",
-      //   credentials: "include", // ⚠️ cực kỳ quan trọng
-      //   headers: {
-      //     "Content-Type": "application/x-www-form-urlencoded",
-      //   },
-      //   body: new URLSearchParams({
-      //     email,
-      //     password,
-      //     csrfToken: await getCsrfToken(),
-      //   }),
-      // })
-
       const loginData = await loginResponse.json();
 
       if (!loginResponse.ok) {

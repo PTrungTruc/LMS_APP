@@ -24,13 +24,13 @@ export default function BubbleChat() {
           {/* Close button */}
           <button
             onClick={() => setOpen(false)}
-            className="absolute top-6 right-6 bg-white rounded-full p-2 shadow-lg"
+            className="absolute top-6 right-6 bg-white rounded-full p-2 shadow-xl z-[10001]"
           >
             <X />
           </button>
 
           {/* Web container */}
-          <div className="w-[90%] h-[90%] bg-white rounded-0 shadow-2xl overflow-hidden ">
+          <div className="w-[45%] h-[90%] absolute right-10 bg-white rounded-[2%] shadow-2xl overflow-hidden ">
             <iframe
               src="http://localhost:3000/embed_chat"
               title="Chat App"
